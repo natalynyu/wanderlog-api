@@ -1,8 +1,23 @@
 const mongoose = require('mongoose')
 
-const itinerarySchema = new mongoose.Schema({
+const LocationSchema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true
+  },
+  address: {
+    type: String,
+    required: true
+  }
+})
+
+const ItinerarySchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true
+  },
   locations: {
-    type: [String],
+    type: [LocationSchema],
     required: true
   },
   owner: {
@@ -14,4 +29,4 @@ const itinerarySchema = new mongoose.Schema({
   timestamps: true
 })
 
-module.exports = mongoose.model('Itinerary', itinerarySchema)
+module.exports = mongoose.model('Itinerary', ItinerarySchema)
