@@ -1,5 +1,6 @@
 Wanderlog
 ======
+This application allows users to upload curated lists of destinations with topics of their choosing from ‘Best Cliff Diving Spots in the World’ to ‘The Must See Sights of Italy.’  Integrated with Google Maps API, this application allows users to share their lists of destinations in a fun and useful way. 
 
 Technologies Used
 ------
