@@ -84,4 +84,9 @@ https://docs.google.com/drawings/d/1rFQOkek8Geo34VZA_voBQAi_fltmMO9Iyt66vG4GgwU/
  ------
  * Fork and clone repository
  * Checkout to a new branch
- * Use the command 'npm run server' to run locally
+ * Install dependencies with terminal command `npm install`
+ * Make sure mongodb is running with terminal command `brew services list`. If it's not, use command 'brew services restart mongodb'
+ * Run the following two commands to generate the secret keys:  
+ `echo SECRET_KEY_BASE_TEST=$(openssl rand -base64 66 | tr -d '\n') >> .env`  
+ `echo SECRET_KEY_BASE_DEVELOPMENT=$(openssl rand -base64 66 | tr -d '\n') >> .env`
+ * Use the command `npm run server` to run locally
