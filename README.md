@@ -82,9 +82,6 @@ https://docs.google.com/drawings/d/1rFQOkek8Geo34VZA_voBQAi_fltmMO9Iyt66vG4GgwU/
 
  Set up & Installation Instructions for Back End
  ------
- * Downloaded Express template - https://git.generalassemb.ly/ga-wdi-boston/express-api-template
- * Created a git repository
- * Installed npm packages and nodemon
- * Added secret keys for development and testing
- * Ran npm server
- * Made initial commit on Github
+ * Fork and clone repository
+ * Checkout to a new branch
+ * Use the command 'npm run server' to run locally
