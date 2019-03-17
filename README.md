@@ -6,7 +6,7 @@ Technologies Used
 ------
 React, JavaScript,  Express, MongoDB, Mongoose, HTML, CSS, Bootstrap
 
-![AppScreenshot](https://i.imgur.com/AQy4AT1.png)
+![AppScreenshot](https://i.imgur.com/LXK19Uu.png)
 
 User Stories
 ------
